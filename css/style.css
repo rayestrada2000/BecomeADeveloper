@@ -1,0 +1,15 @@
+main > .container {
+  padding: 10px 10px 0;
+}
+ul {
+  list-style: none;
+}
+
+@media (width <= 788) {
+}
+.wrapper {
+  outline: 2px blue solid;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+}
