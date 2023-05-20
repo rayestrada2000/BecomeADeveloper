@@ -20,9 +20,13 @@ a:hover {
   padding: 0;
 }
 body {
-  background-image: url(/img/pramod-tiwari-_eWHfuxFW7o-unsplash.jpg);
+  /* background-image: url(/img/pramod-tiwari-_eWHfuxFW7o-unsplash.jpg); */
+  background-image: url(/img/pramod-tiwari-2v7ukj3O2Ss-unsplash.jpg);
   background-size: cover;
   /* cover is the same as 100% */
   background-position: 10%;
   color: white;
+}
+nav {
+  background-color: #041222;
 }
