@@ -4,7 +4,13 @@ main > .container {
 ul {
   list-style: none;
 }
-
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
 @media (width <= 788) {
 }
 .wrapper {
@@ -15,4 +21,8 @@ ul {
 }
 body {
   background-image: url(/img/pramod-tiwari-_eWHfuxFW7o-unsplash.jpg);
+  background-size: cover;
+  /* cover is the same as 100% */
+  background-position: 10%;
+  color: white;
 }
