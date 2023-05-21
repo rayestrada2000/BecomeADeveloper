@@ -11,7 +11,8 @@ a {
 a:hover {
   color: rgba(255, 255, 255, 0.5);
 }
-.h2 {
+.h2,
+.h1-text {
   color: #d39aa1;
 }
 @media (width <= 788) {
