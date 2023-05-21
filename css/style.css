@@ -11,6 +11,9 @@ a {
 a:hover {
   color: rgba(255, 255, 255, 0.5);
 }
+.h2 {
+  color: #d39aa1;
+}
 @media (width <= 788) {
 }
 .wrapper {
@@ -22,10 +25,12 @@ a:hover {
 body {
   /* background-image: url(/img/pramod-tiwari-_eWHfuxFW7o-unsplash.jpg); */
   background-image: url(/img/pramod-tiwari-2v7ukj3O2Ss-unsplash.jpg);
+  /* cover is the same as background-size: 100%; */
   background-size: cover;
-  /* cover is the same as 100% */
-  background-position: 10%;
+  /* background-position deals with left, right, and center (appended by: top, center, and, bottom)  */
+  background-position: center bottom;
   color: white;
+  background-size: cover;
 }
 nav {
   background-color: #041222;
